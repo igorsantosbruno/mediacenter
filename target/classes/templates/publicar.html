@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>midia center</title>
+</head>
+<body>
+<h1>Cadastrar diretorioArquivo</h1>
+<form action="#" th:action="@{/publicar}" th:object="${conteudo}" method="post" enctype="multipart/form-data">
+    <input type="text" class="form-control" id="iptDescricao" placeholder="descrição" th:field="*{descricao}"/><br></br>
+    <input type="file" name="file" /><br/><br/>
+    <input type="submit" value="Novo registro"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+#topo{width: 100%; background: #efefef;}
+#topo div:nth-of-type(2) {background: #dfdfdf}
+.container-logo{max-width: 200px;padding-top: 20px;padding-bottom: 20px;}
+.container-logo img{width: 100%}
+#topo form{width: 100%}
+.banner{height:424px; background-image:url('../images/banner.jpg'); background-size: cover}
+.container-banner{padding-top: 220px; }
+.banner h1{color:#dd270e}
+.banner p{color:#ffffff; font-size:21px }
+#Banner-Cadastro form input {width:100%}
+
+#Banner-Cadastro h2{color:#DD270E}
+
+.col-meio{padding-right: 4px;
+padding-left: 15px;
+}
+
+.itemComentario h5{font-weight:700}
+.pAvalia{margin-top:20px;font-weight: 600;}
+
+.col-label{padding-right: 15px;
+padding-left: 4px;
+}
+.sub{cursor: pointer; background:#0061CD }
+.sub:hover{background:#10319D}
+.pesquisar{background: #DD270E;color:#ffffff}
+.pesquisar:hover{background: #CD1700;color:#ffffff}
+footer{margin-top:50px;background: #efefef}
+footer .row{margin-left:0; margin-right: 0}
+.botaoAcessar input{width: 100%}
+#interna footer{margin-top:0px}
+
+
+.sidebar{    border-right: solid 4px #2041AD;
+background: #0061CD;    padding-bottom: 30px;
+}
+
+.pesquisa{width: 84%;
+margin-right: 2%;
+
+float: left;}
+
+.iconeBusca{width: 7%;
+float: left;
+margin-left: 3%;
+padding-top: 5px;}
+
+.pesquisaTodo{margin-left: 4%;}
+.lbpadrao{color: #ffffff; display: block}
+.sidebar select{width: 100%}
+.conteudo{margin-right: 0 ; margin-left: 0}
+#conteudo .row{margin-left: 0 ; margin-right: 0}
+#conteudo h1{font-size: 31px;font-weight: 700}
+.sidebar h1{color:#ffffff;border-bottom: solid 1px #efefef}
+.estabelecimento h1{color: #DD270E;
+border-bottom: solid 1px #efefef;
+padding-bottom: 10px; }
+.itemEstabelecimentos{margin-top: 40px;
+margin-bottom: 40px;
+border-bottom: dotted 2px #cfcfcf;
+padding-bottom: 20px;
+}
+.itemEstabelecimentos h2{font-size:21px;color:#0061CD}
+.itemEstabelecimentos p{}
+.mais{display: inline-block;
+background: #0061CD;
+color: #ffffff;
+border-radius: 50%;
+width: 29px;
+height: 29px;
+text-align: center;
+font-size: 31px;
+font-weight: 700;
+line-height: 19px;}
+.todo-pop-avaliacao{display: block; text-align: right}
+.botaoAcessar input{width: 100%}
+.rateYo {padding:0; margin-top: 10px; margin-bottom: 10px;}
+
+.white-popup {
+position: relative;
+background: #FFF;
+padding: 20px;
+width:auto;
+max-width: 900px;
+margin: 20px auto;
+max-height: 400px;
+width: 90%;
+overflow-y: scroll
+}
+
+.white-popup h4{
+margin-top:20px;
+margin-bottom:10px;
+color:#0061CD;
+font-weight: 700
+}
+
+.white-popup h5{
+margin-top:30px;
+margin-bottom:20px;
+color:#DD270E
+}	
+
+.white-popup p{}
+
+.separador-area{    height: 1px;
+background: #bababa;
+width: 100%;
+margin-top: 27px;
+}
+
+.itemComentario{
+border-bottom: dotted 2px #cfcfcf;
+padding-bottom: 0px;
+margin-bottom: 20px;
+}
+.meu-card{background: #0275D8;color:#ffffff}
+
+.submitBusca{
+	width:100%;
+}
+
+.submitBusca{background: #00003D;color:#ffffff;cursor:pointer}
+.submitBusca:hover{background: #CD1700;color:#ffffff}
+
+
+#rowLogado p{
+font-size: 23px;}
+
+#comentarioForm {background: #efefef;}
+#comentarioForm label{display:block}
+#comentarioForm input, textarea {width:100%}
+
+#comentarioForm  h2{color:#0061CD}
+#comentarioForm h3{font-size: 14px;
+    color: #CD1700;
+    margin-top: 30px;}
+
+.cadastroEstabelecimento label{display:block; margin-top: 20px}
+.cadastroEstabelecimento input, .cadastroEstabelecimento textarea{width:100%; }
+
+.cadastroEstabelecimento .sub{max-width: 200px; margin-top: 40px; margin-bottom: 40px}
+
+.cadastroEstabelecimento .col-meio{padding-left:0}
+

@@ -1,0 +1,92 @@
+header{
+	background-color:#21053F;
+	opacity:88.0;
+	height:150%;
+	
+	
+}
+#div1{
+	float:right;
+}
+#lateral{
+	background-color:#038972;
+	font-family:Tw Cen MT bold;
+	float:left;
+	height:300%;
+	background-attachment:fixed;
+	position:fixed;
+	
+}
+body {
+    background-image: url(https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-9/24293865_1683459428372005_7831856030697937170_n.jpg?oh=61896252d661d8fdef622cd07ab28cce&oe=5A99F557);
+	background-size:100%;
+	background-attachment:fixed;
+}
+button{
+	width:100%;
+}
+#bt1{
+	width:50%;
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.center{
+
+    background-attachment:fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aaa{
+font:bold 15px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#21053f;
+border:0px solid #ffffff;
+text-shadow:0px -1px 1px #222222;
+box-shadow:0px 2px 5px #000000;
+-moz-box-shadow:0px 2px 5px #000000;
+-webkit-box-shadow:0px 2px 5px #000000;
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+width:150px;
+
+cursor:pointer;
+margin:0 auto;
+}
+.aaa:active{
+cursor:pointer;
+
+top:2px;
+}
+
+.bbb{
+color:white;
+
+}

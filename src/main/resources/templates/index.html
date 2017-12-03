@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" th:href="@{css/cafeina.css}"/>
+    <link th:href="@{css/bootstrap.css}" rel="stylesheet"/>
+    <title>Media Center - Pagina inicial</title>
+</head>
+<body ng-app="app" ng-controller="ConteudoController">
+<header>
+    <div id="div1" class="col-md-12">
+        <!--<img th:src="https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-9/24296721_1683562395028375_3277350117068199915_n.jpg?oh=a1391736ef55b65c6a5603ca93d4dbf5&oe=5A952AD2;" height="70px" width="300px"/>-->
+        <div id="div2" class="col-md-6" align="left">
+            <input type="text" name="search" placeholder="Busca" align="right"/>
+        </div>
+
+    </div>
+
+</header>
+
+<footer>
+    <div class="col-md-2" id="lateral">
+        <a href="#"><button class="text-center btn btn-info sub">TV</button></a><br/><br/>
+        <a href="#"><button class="text-center btn btn-info sub">Rádioweb</button></a><br/><br/>
+        <a href="#"><button class="text-center btn btn-info sub">TRANSMID</button></a><br/><br/>
+        <a href="#"><button class="text-center btn btn-info sub">Agência Conecta</button></a><br/><br/>
+        <a href="#"><button class="text-center btn btn-info sub">Agência Pupila</button></a><br/><br/>
+        <a href="#"><button class="text-center btn btn-info sub">Expressão</button></a><br/><br/><br/>
+        <a><h2>Sugestões</h2></a>
+        <textarea name="comentarios" placeholder="comente aqui" rows="3" cools="20"></textarea><br/>
+        <input type="text" placeholder="Nome"/><br/><br/>
+        <center><a href="#"><button id="bt1" class="text-center btn btn-info sub">Enviar</button></a></center>
+    </div>
+</footer>
+
+<center><div class="center">
+<tbody>
+<tr data-th-each="conteudo : ${conteudos}">
+    <div th:switch="${conteudo.tipoArquivo}">
+        <div th:case="'video'">
+            <ul>
+            <!--<div class = "txtarea">-->
+                <!--<center><textarea  cols="60" th:text="${conteudo.descricao}" disabled="true"></textarea><br/><br/></center>-->
+                <li><video width="400" th:src="@{${conteudo.diretorioBuscar}}" controls=""></video></li>
+<!--                <div class="btnshare">
+                    <input type="button" class = "ddd" value="Compartilhar"/><a class = "bbb" href="#"/><br></br>
+                </div>-->
+            <!--</div>-->
+            </ul>
+        </div>
+        <div th:case="*">
+            <ul>
+            <!--<div class = "txtarea">-->
+                <!--<center><textarea  cols="60" th:text="${conteudo.descricao}" disabled="true"></textarea><br/><br/></center>-->
+                <li><img th:src="@{${conteudo.diretorioBuscar}}" controls="" width="400px" /></li>
+                <!--<div class="btnshare">-->
+                    <!--<input type="button" class = "ddd" value="Compartilhar"/><a class = "bbb" href="#"/><br></br>-->
+                <!--</div>-->
+            <!--</div>-->
+            </ul>
+        </div>
+    </div>
+</tr>
+</tbody>
+</div></center>
+</body>
+</html>
